@@ -17,10 +17,10 @@ class MoviesPage extends Component {
     }
 }
 
-const mapStateToProps = ({movies}) => {
+const mapStateToProps = ({ movies }) => {
     return {
         movies
     }
-}
+};
 
-export default connect(mapStateToProps)(MoviesPage)
+export default connect(mapStateToProps)(MoviesPage);
